@@ -1,0 +1,161 @@
+/* Config Bulma */
+.columns {
+    margin: 0 !important;
+    overflow: hidden
+}
+.box {
+    box-shadow: none
+}
+.input, .textarea {
+    background-color: #131c2c;
+    border-color: #00D1B2;
+    box-shadow: none
+}
+
+.input, .textarea:focus {
+    box-shadow: none !important
+}
+/* Config Bulma */
+
+/* SweetAlert */
+.swal-text {
+    display: block;
+    text-align: center
+  }
+.swal-button--confirm {
+    background-color: #131c2c;
+    box-shadow: 0px
+  }
+  .swal-button--cancel {
+    color: white;
+    background-color: #FF3860;
+    box-shadow: 0px
+  }
+
+  .swal-button--cancel:active,.swal-button--confirm:active {
+      background-color: rgba(107, 107, 107, 0.5)
+  }
+/* SweetAlert */
+::-webkit-scrollbar {
+    width: 0px
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 6px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: #6320ee
+}
+
+::-webkit-input-placeholder {
+    color: rgb(78, 78, 78) !important
+}
+
+::-webkit-inner-spin-button { 
+    display: none 
+}
+::-webkit-calendar-picker-indicator { 
+    background-color: transparent;
+    width: 1rem
+}
+
+#sideMenu {
+    background-color: #0c121d
+}
+
+#main {
+    position: relative;
+    background-color: #131c2c;
+    padding: 0;
+    overflow-y: scroll
+}
+
+.btnside {
+    display: block;
+    width: 2rem;
+    height: auto;
+    margin-bottom: 1rem;
+    transform: scale(1);
+    transition: transform 0.2s;
+}
+
+.btnside:hover {
+    transform: scale(1.2);
+}
+
+.sin-pad {
+    padding: 0
+}
+
+.full-h {
+    height: 100%
+}
+
+.marbot {
+    margin-bottom: .5rem !important
+}
+
+.marcab {
+    margin-bottom: 2rem !important
+}
+
+#btnok {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 3rem;
+    padding: .5rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 2px black;
+    cursor: pointer
+}
+
+.btnitem {
+    width: 1.5rem;
+    cursor: pointer;
+    vertical-align: middle;
+    transform: scale(1);
+    transition: transform .2s
+}
+
+.btnitem:hover {
+    transform: scale(1.2)
+}
+
+.sin-bordes {
+    border: none
+}
+
+.is-editing {
+    background-color: #56666b
+}
+
+.mar-top {
+    margin-top: 5rem !important
+}
+
+.fondo-1 {
+    background-color: #131c2c
+}
+
+.caja-info {
+    position: sticky;
+    top: 0;
+    z-index: 1000
+}
+
+.pad-top-bot {
+    padding-bottom: 2rem
+}
+
+.infoco:focus {
+    /* border: 2px solid #6320ee */
+    box-shadow: 0px 0px 0px 2px #6320ee !important
+}
+
+
+
+
