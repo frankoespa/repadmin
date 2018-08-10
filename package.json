@@ -38,16 +38,12 @@
                 "name": "repadmin.ges",
                 "setupIcon": "src/icon.ico"
             },
-            "electronWixMSIConfig": {
-                "ui": {
-                    "chooseDirectory": true
-                }
-            },
             "electronInstallerDebian": {},
             "electronInstallerRedhat": {},
             "github_repository": {
                 "owner": "frankoespa",
-                "name": "repadmin"
+                "name": "repadmin",
+                "draft": false
             },
             "windowsStoreConfig": {
                 "packageName": "",
